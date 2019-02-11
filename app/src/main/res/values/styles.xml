@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LeftFade">
+        <item name="android:windowEnterAnimation">@anim/anim_in_lefttoright</item>
+        <item name="android:windowExitAnimation">@anim/anim_out_righttoleft</item>
+    </style>
+
+    <style name="RightFade">
+        <item name="android:windowEnterAnimation">@anim/anim_in_righttoleft</item>
+        <item name="android:windowExitAnimation">@anim/anim_out_lefttoright</item>
+    </style>
+</resources>
