@@ -53,9 +53,9 @@ public class MainActivity extends AppCompatActivity {
         mPopupWindow = new PopupWindow(popupWindowView, ScreenUtils.getScreenWidth() * 4 / 5, LinearLayout.LayoutParams.MATCH_PARENT, true);
 
         // 右侧弹出框
-//        mPopupWindow.setAnimationStyle(R.style.RightFade);
+        mPopupWindow.setAnimationStyle(R.style.RightFade);
         // 左侧弹出框
-        mPopupWindow.setAnimationStyle(R.style.LeftFade);
+//        mPopupWindow.setAnimationStyle(R.style.LeftFade);
 
         mPopupWindow.setBackgroundDrawable(dw);
 
@@ -70,9 +70,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void showRightDialog() {
         // 右侧弹出框
-//        mPopupWindow.showAtLocation(btnShowDialog, Gravity.RIGHT, 0, 500);
+        mPopupWindow.showAtLocation(btnShowDialog, Gravity.RIGHT, 0, 500);
         // 左侧弹出框
-        mPopupWindow.showAtLocation(btnShowDialog, Gravity.LEFT, 0, 0);
+//        mPopupWindow.showAtLocation(btnShowDialog, Gravity.LEFT, 0, 0);
         backgroundAlpha(0.5f);
     }
 
